@@ -114,10 +114,10 @@ class Player(pygame.sprite.Sprite):
         self.shoot_delay = 250
         self.last_shot = pygame.time.get_ticks()
         self.last_hitted = pygame.time.get_ticks()
-        self.power = 3  # 0
+        self.power = 0
         self.speedx = 0
         self.speedy = 0
-        self.lives = 99  # 3
+        self.lives = 3
         self.radius = 20
         self.score = 0
         self.dragon_killed = 0
